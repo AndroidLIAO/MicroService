@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!--&lt;!&ndash;    <parent>&ndash;&gt;-->
+<!--&lt;!&ndash;        <groupId>com.MicroService</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;        <artifactId>microservice</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;        <version>0.0.1-SNAPSHOT</version>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+<!--    </parent>-->
+    <groupId>com.MicroService</groupId>
+    <artifactId>common_service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>common_service</name>
+    <description>common_service</description>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+    </build>
+
+
+</project>
